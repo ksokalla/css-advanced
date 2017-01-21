@@ -1,0 +1,32 @@
+* {
+	font-size: 25px;
+}
+.klient:nth-child(even) {
+	background-color: beige;	
+}
+
+div[suma] {
+	background-color: aqua;
+}
+
+div[suma="1500"] {
+	background-color: red;
+}
+
+div[detaliczny~="tak"] {
+	color: green;
+}
+
+/* gwiazdka - wyszukuje slowo w teści bez spacji tylda - ze spacją*/
+
+div[detaliczny*="tak"] {
+	color: dimgrey;
+}
+
+div[detaliczny^="moze"] {
+	color: crimson;
+}
+
+div[suma$="560"] {
+	color: goldenrod;
+}
