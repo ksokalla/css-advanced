@@ -1,0 +1,62 @@
+* {
+	text-decoration: none;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: violet;
+}
+
+a:hover {
+	color: greenyellow;
+	text-decoration: underline;
+}
+
+a:active {
+	color: firebrick;
+}
+
+
+/*focus nadpisuje active*/
+
+a:focus {
+	color: darkgreen;
+}
+
+#p1 {
+	color: blue;
+}
+
+
+/* target dziala na linki visited wewnątrz dokumentu */
+
+#p1:target {
+	color: green;
+	background-color: hotpink;
+}
+
+p:lang(en) {
+	font-style: italic;
+	background-color: darkcyan;
+}
+
+
+/* nth-child odnosi się do childa nie do rodzica */
+
+div.klient:nth-child(even) {
+	background-color: cyan;
+}
+
+div.klient:nth-child(odd) {
+	background-color: chartreuse;
+		
+}
+
+/* wychodzi na to samo co co siódmy*/
+
+div.klient:nth-child(5n+2) {
+	background-color: olive;
+}
