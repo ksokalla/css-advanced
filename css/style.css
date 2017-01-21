@@ -1,3 +1,27 @@
 * {
 	font-family: cursive;
+	font-size: 25px;
+}
+
+#p1::before {
+	content: "Przed elementem ";
+	color: green;
+}
+
+#p2::after {
+	content: "za elementem";
+	color: aqua;
+}
+
+#p3::first-letter {
+	text-transform: uppercase;
+	color: deeppink;
+}
+
+#p4::first-line {
+	background-color: red;
+}
+
+#p5::selection {
+	background-color: skyblue;
 }
