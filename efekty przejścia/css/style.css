@@ -1,0 +1,40 @@
+.box {
+	width: 150px;
+	height: 150px;
+}
+
+#box1 {
+	background-color: firebrick;
+	border: 1px dashed blue;
+	transition: 2s ease-in;
+}
+
+#box2 {
+	background-color: olive;
+	border: 1px solid yellow;
+	transition: 2s;
+}
+
+#box3 {
+	background-color: deeppink;
+	border: 1px dotted gold;
+	transition: 25s;
+	left: 0;
+	right: 0;
+	margin: auto;
+}
+
+#box1:hover {
+	cursor: pointer;
+	width: 300px;
+}
+
+#box2:hover {
+	cursor: pointer;
+	height: 300px;
+}
+
+#box3:hover {
+	cursor: pointer;
+	transform: rotateZ(500deg);
+}

@@ -1,0 +1,10 @@
+#tlo-obrazek {
+	background-image: url("../img/truskawka.jpg");
+	color: lime;
+	background-repeat: repeat-x;
+	background-position: top center;
+	background-color: aqua;
+	background-size: 70% 70%;
+	/* procenty wielkosci zawsze są w stosunku do rodzica*/
+	background-attachment: local;
+}
